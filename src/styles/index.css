@@ -10,3 +10,63 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    overflow: hidden;
+}
+
+.backgroundList{
+    width:600px;
+    height: 600px;
+    background-color: #BBA2FF;
+}
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:100px;
+    font-size: 80px;
+    margin-left:auto;
+    margin-right:auto;
+    color: #E9E1E2;
+    margin-top:20px;
+}
+
+.input{
+    width: 450px;
+    height: 50px;
+    font-size: 20px;
+    padding: 27px;
+    list-style: none;
+    border: 1px solid #A54BFF;
+    background-color: #DFE7FF ; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:400px;
+}
+
+.submittedInput{
+    width: 450px;
+    height: 50px;
+    font-size: 20px;
+    padding: 27px;
+    padding-top:10px;
+    list-style: none;
+    background-color: #DFE7FF; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:400px;
+    margin-right: 32px;
+    color: #75757D;
+    border: 1px solid #A54BFF;
+}
+
+
+.closing-btn{
+    border: none;
+    background-color: #DFE7FF;
+    color: #A54BFF;
+    float: right;
+    display: none;
+}
+
+.submittedInput:hover .closing-btn{
+    display:block;
+}
